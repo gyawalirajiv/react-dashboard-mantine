@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Dashboard Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a dashboard built using Create React App (CRA) and Mantine for UI components. The dashboard provides a user-friendly interface to display and manage data in a visually appealing manner.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To run this dashboard project locally, follow these steps:
 
-### `npm start`
+1. Clone the repository to your local machine:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`git clone https://github.com/your-username/dashboard-project.git`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Change into the project directory:
 
-### `npm test`
+`cd dashboard-project`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install the dependencies using npm or yarn:
 
-### `npm run build`
+`npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm start`
+This will launch the dashboard in your default browser at `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+The dashboard project comes with the following features:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Responsive layout: The dashboard is designed to adapt to different screen sizes, ensuring a seamless user experience on both desktop and mobile devices.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Mantine UI: The project utilizes the Mantine library for UI components, providing a set of pre-designed and customizable elements to enhance the visual appeal of the dashboard.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Data visualization: The dashboard includes various charts and graphs to present data in a visually appealing and easily understandable format.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Data management: Users can interact with the dashboard to manage data, such as filtering, sorting, and searching for specific information.
 
-## Learn More
+## Folder Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project structure is organized as follows:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+dashboard-project/
+README.md
+node_modules/
+package.json
+public/
+index.html
+favicon.ico
+src/
+assets/
+components/
+pages/
+App.js
+index.js
 
-### Code Splitting
+- `public/`: Contains the public assets and the main HTML file.
+- `src/`: Contains the source code of the dashboard.
+    - `assets/`: Contains static assets like images and icons.
+    - `components/`: Contains reusable components used throughout the application.
+    - `pages/`: Contains individual pages of the dashboard.
+    - `App.js`: The main component that renders the dashboard.
+    - `index.js`: Entry point of the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions to this project are welcome. If you find any issues or have ideas for improvements, please open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize and extend this ReadMe.md file to provide additional information specific to your project.
